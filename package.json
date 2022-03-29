@@ -1,0 +1,33 @@
+{
+  "name": "shuffle-bird",
+  "version": "1.0.0",
+  "description": "rotate bird discord bot",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodzpod/shuffle-bird.git"
+  },
+  "keywords": [
+    "discord.js"
+  ],
+  "author": "prodzpod",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/prodzpod/shuffle-bird/issues"
+  },
+  "homepage": "https://github.com/prodzpod/shuffle-bird#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
+}

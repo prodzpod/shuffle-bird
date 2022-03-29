@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "cera-round-pro";
+    font-weight: black;
+    font-style: normal;
+    src: url('./font/ceraroundproblack.woff') format('woff'), url('./font/ceraroundproblack.woff2') format('woff2'), url('./font/ceraroundproblack.otf') format('opentype');
+}
+@font-face {
+    font-family: "cera-round-pro";
+    font-weight: bold;
+    font-style: normal;
+    src: url('./font/ceraroundprobold.woff') format('woff'), url('./font/ceraroundprobold.woff2') format('woff2'), url('./font/ceraroundprobold.otf') format('opentype');
+}
+@font-face {
+    font-family: "cera-round-pro";
+    font-weight: normal;
+    font-style: normal;
+    src: url('./font/ceraroundproregular.woff') format('woff'), url('./font/ceraroundproregular.woff2') format('woff2'), url('./font/ceraroundproregular.otf') format('opentype');
+}
+@font-face {
+    font-family: "cera-round-pro";
+    font-weight: medium;
+    font-style: normal;
+    src: url('./font/ceraroundpromedium.woff') format('woff'), url('./font/ceraroundpromedium.woff2') format('woff2'), url('./font/ceraroundpromedium.otf') format('opentype');
+}
+@font-face {
+    font-family: "cera-round-pro";
+    font-weight: thin;
+    font-style: normal;
+    src: url('./font/ceraroundprothin.woff') format('woff'), url('./font/ceraroundprothin.woff2') format('woff2'), url('./font/ceraroundprothin.otf') format('opentype');
+}
+@font-face {
+    font-family: "cera-round-pro";
+    font-weight: light;
+    font-style: normal;
+    src: url('./font/ceraroundprolight.woff') format('woff'), url('./font/ceraroundprolight.woff2') format('woff2'), url('./font/ceraroundprolight.otf') format('opentype');
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 8px;
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+h1 { font-size: 144px; }
+h2 { font-size: 72px; }
+h3 { font-size: 48px; }
+h4 { font-size: 36px; }
+h5 { font-size: 28px; }
+h6 { font-size: 24px; }
+p { font-size: 16px; line-height: 1.5; }
+small { font-size: 50%; }
+i { display: inline-block; margin: 0 0.1rem; }
+b { font-weight: bold; }
+
+a:link { color: #ffbf00; }
+a:visited { color: #d56a00; }
+a:hover { color: #ffca2b; }
+a:active { color: #ffffff; }
+
+body {
+    background-color: #1b1b25;
+    color: white;
+}
+.content {
+    padding: 72px;
+}
+
+footer {
+    background-color: #464662;
+    text-align: center;
+    padding: 12px;
+    color: #7a7aa0;
+    user-select: none;
+    cursor: default;
+}
